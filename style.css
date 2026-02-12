@@ -1,0 +1,52 @@
+/* Page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Two city layout */
+.cities-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+/* City card */
+.city-card {
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.city-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Astro cards */
+.astro-card {
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.astro-card h4 {
+    margin: 0 0 6px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.astro-card p {
+    margin: 0;
+    font-size: 1.1rem;
+}
